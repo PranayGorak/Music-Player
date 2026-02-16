@@ -5,11 +5,11 @@ A fully responsive Spotify-inspired music streaming web application built using 
 
 This project replicates the core UI and basic functionality of Spotify including music playback, dynamic song loading, and responsive design.
 
-##🚀 Live Demo
+#🚀 Live Demo
 ---
-🔗 View Live Project Here
+🔗 https://pranaygorak.github.io/Music-Player/
 
-##📌 Features
+#📌 Features
 ---
 🎶 Play / Pause Songs
 
@@ -25,10 +25,10 @@ This project replicates the core UI and basic functionality of Spotify including
 
 🎨 Modern Dark Theme Interface
 
-##🛠️ Technologies Used
+#🛠️ Technologies Used
 ---
-HTML5
+• HTML5
 
-CSS3 (Flexbox & Responsive Design)
+• CSS3 (Flexbox & Responsive Design)
 
-JavaScript (DOM Manipulation, Audio API, Async/Await)
+• JavaScript (DOM Manipulation, Audio API, Async/Await)
