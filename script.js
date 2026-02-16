@@ -1,4 +1,3 @@
-// 🔥 MANUAL SONG LIST (Put your exact file names here)
 let songs = [
     "Kushagra-Bharath-Saaheal-Finding - Copy (2).mp3",
     "Mithoon-Arijit-Singh-Sanam-Re-Fr.mp3",
@@ -19,7 +18,7 @@ let currentSong = new Audio();
 
 const playMusic = (track, pause = false) => {
 
-    currentSong.src = "songs/" + track; // ✅ FIXED PATH
+    currentSong.src = "songs/" + track;
 
     if (!pause) {
         currentSong.play();
@@ -107,7 +106,7 @@ async function main() {
         currentSong.volume = parseInt(e.target.value) / 100;
     });
 
-    // 🔥 Cards play random song
+  
     let cards = document.querySelectorAll(".card");
 
     cards.forEach(card => {
@@ -119,3 +118,4 @@ async function main() {
 }
 
 main();
+
